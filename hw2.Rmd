@@ -1,6 +1,6 @@
 ---
 title: "HW2"
-author: "Your Name (ID)"
+author: "H24071299"
 output: html_document
 ---
 
@@ -18,7 +18,10 @@ str(iris)
 
 # Problem 2:
 
-The sample median of the variable Petail.With is  
+The sample median of the variable Petail.With is
+```{r}
+median(iris$Petal.Width)
+```
 
 # Problem 3: Draw a histograms of the Sepal.Length variable
 
